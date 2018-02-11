@@ -572,10 +572,16 @@ int main(int argc, char **argv)
 
 	//Subscribed topic names
 	string topic_camera, topic_camera_info, topic_marker_register, topic_marker_remove;
-	node.param<string>("topic_camera", topic_camera, "/rgb/image");
-	node.param<string>("topic_camera_info", topic_camera_info, "/rgb/camera_info");
+	node.param<string>("topic_camera", topic_camera, "/sr300/rgb/image_color");
+	node.param<string>("topic_camera_info", topic_camera_info, "/sr300/rgb/camera_info");
 	node.param<string>("topic_marker_register", topic_marker_register, "/marker_register");
-	node.param<string>("topic_marker_remove", topic_marker_register, "/marker_remove");
+	node.param<string>("topic_marker_remove", topic_marker_remove, "/marker_remove");
+
+	ROS_INFO_STREAM("topic camera: " << topic_camera);
+	ROS_INFO_STREAM("topic camera_info: " << topic_camera_info);
+	ROS_INFO_STREAM("topic camera_marker_register: " << topic_marker_register);
+	ROS_INFO_STREAM("topic_marker_remove : " << topic_marker_remove);
+
 
 	//Publish topic names
 	string topic_visible, topic_position, topic_rotation, topic_pose;

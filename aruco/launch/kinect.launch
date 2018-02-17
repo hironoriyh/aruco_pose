@@ -1,0 +1,22 @@
+<launch>
+	<node pkg="aruco" type="aruco" name="aruco">
+		<!--Detector-->
+		<param name="debug" value="true" />
+		<param name="cosine_limit" value="0.7"/>
+		<param name="theshold_block_size_min" value="3"/>
+		<param name="theshold_block_size_max" value="21"/>
+		<param name="max_error_quad" value="0.035"/>
+		<param name="min_area" value="100"/>
+		<param name="use_opencv_coords" value="true"/>
+
+		<!--Markers SIZE_CM POS_XYZ ROT_XYZ-->
+		<param name="marker0" value="0.178_0.000_0_0_0_0_0"/>
+
+		<!-- <param name="marker321" value="0.2_0_0_0_0_0_0"/>
+		<param name="marker123" value="0.2_0_0_0_0_0_0"/> -->
+
+		<!--Camera-->
+		<param name="topic_camera"          value="/kinect2/sd/image_color_rect"/>
+		<param name="topic_camera_info"    value="/kinect2/sd/camera_info"/>
+	</node>
+</launch>

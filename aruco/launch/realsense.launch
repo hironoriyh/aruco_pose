@@ -12,33 +12,33 @@
 
 		<!--Markers SIZE_CM POS_XYZ ROT_XYZ-->
 		<param name="marker50" value="3.7_0.0_0_0_0_0_0"/>
-		<param name="marker51" value="3.7_4.6_0_0_0_0_0"/>
-		<param name="marker52" value="3.7_9.2_0_0_0_0_0"/>
+		<param name="marker51" value="3.7_4.65_0_0_0_0_0"/>
+		<param name="marker52" value="3.7_9.3_0_0_0_0_0"/>
 		<param name="marker53" value="3.7_13.9_0_0_0_0_0"/>
 
-		<param name="marker54" value="3.7_0.0_4.6_0_0_0_0"/>
-		<param name="marker55" value="3.7_4.6_4.6_0_0_0_0"/>
-		<param name="marker56" value="3.7_9.2_4.6_0_0_0_0"/>
-		<param name="marker57" value="3.7_13.9_4.6_0_0_0_0"/>
+		<param name="marker54" value="3.7_0.0_4.65_0_0_0_0"/>
+		<param name="marker55" value="3.7_4.6_4.65_0_0_0_0"/>
+		<param name="marker56" value="3.7_9.3_4.65_0_0_0_0"/>
+		<param name="marker57" value="3.7_13.9_4.65_0_0_0_0"/>
 
-		<param name="marker58" value="3.7_0.0_9.2_0_0_0_0"/>
-		<param name="marker59" value="3.7_4.6_9.2_0_0_0_0"/>
-		<param name="marker60" value="3.7_9.2_9.2_0_0_0_0"/>
-		<param name="marker61" value="3.7_13.9_9.2_0_0_0_0"/>
+		<param name="marker58" value="3.7_0.0_9.35_0_0_0_0"/>
+		<param name="marker59" value="3.7_4.6_9.35_0_0_0_0"/>
+		<param name="marker60" value="3.7_9.3_9.35_0_0_0_0"/>
+		<param name="marker61" value="3.7_13.9_9.35_0_0_0_0"/>
 
-		<param name="marker62" value="3.7_0.0_13.9_0_0_0_0"/>
-		<param name="marker63" value="3.7_4.6_13.9_0_0_0_0"/>
-		<param name="marker64" value="3.7_9.2_13.9_0_0_0_0"/>
-		<param name="marker65" value="3.7_13.9_13.9_0_0_0_0"/>
+		<param name="marker62" value="3.7_0.0_14_0_0_0_0"/>
+		<param name="marker63" value="3.7_4.6_14_0_0_0_0"/>
+		<param name="marker64" value="3.7_9.3_14_0_0_0_0"/>
+		<param name="marker65" value="3.7_13.9_14_0_0_0_0"/>
 
-		<param name="marker66" value="3.7_0.0_18.6_0_0_0_0"/>
-		<param name="marker67" value="3.7_4.6_18.6_0_0_0_0"/>
-		<param name="marker68" value="3.7_9.2_18.6_0_0_0_0"/>
-		<param name="marker69" value="3.7_13.9_18.6_0_0_0_0"/>
+		<param name="marker66" value="3.7_0.0_18.65_0_0_0_0"/>
+		<param name="marker67" value="3.7_4.6_18.65_0_0_0_0"/>
+		<param name="marker68" value="3.7_9.3_18.65_0_0_0_0"/>
+		<param name="marker69" value="3.7_13.9_18.65_0_0_0_0"/>
 
 		<param name="marker70" value="3.7_0.0_23.3_0_0_0_0"/>
 		<param name="marker71" value="3.7_4.6_23.3_0_0_0_0"/>
-		<param name="marker72" value="3.7_9.2_23.3_0_0_0_0"/>
+		<param name="marker72" value="3.7_9.3_23.3_0_0_0_0"/>
 		<param name="marker73" value="3.7_13.9_23.3_0_0_0_0"/>
 
 		<!--Camera-->

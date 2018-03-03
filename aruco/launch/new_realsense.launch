@@ -72,8 +72,8 @@
 		<param name="marker23" value="3.7_13.9_23.3_0_0_0_0"/>
 
 		<!--Camera-->
-		<param name="topic_camera"          value="/camera/rgb/image_rect_color"/>
-		<param name="topic_camera_info"    value="/camera/rgb/camera_info"/>
+    <param name="topic_camera"          value="/camera/color/image_raw"/>
+    <param name="topic_camera_info"    value="/camera/color/camera_info"/>
 
 		<!-- <remap from="/aruco/pose" to="/test/pose" /> -->
 

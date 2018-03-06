@@ -71,7 +71,7 @@
 		<param name="marker22" value="3.7_9.3_23.3_0_0_0_0"/>
 		<param name="marker23" value="3.7_13.9_23.3_0_0_0_0"/>
 
-		<!--Camera-->
+		<!--Camera, somehow image_raw topic not working-->
 		<param name="topic_camera"          value="/camera/rgb/image_rect_color"/>
 		<param name="topic_camera_info"    value="/camera/rgb/camera_info"/>
 
